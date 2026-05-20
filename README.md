@@ -10,6 +10,7 @@ Methodology
 The analysis is executed in seven sequential phases:
 
 1. Data Loading and Inspection
+   
 Loads the dataset from an Excel file (Dataset for Data Analytics.xlsx, sheet Sheet1) using pandas.
 
 Displays initial dataset overview including shape, first 5 rows, column data types, and missing value counts.
@@ -17,6 +18,7 @@ Displays initial dataset overview including shape, first 5 rows, column data typ
 Establishes a foundation for subsequent analysis by verifying data integrity.
 
 2. Basic Statistical Analysis
+   
 Computes key descriptive statistics for numerical columns (Quantity, UnitPrice, TotalPrice):
 
 Count, mean, median, minimum, maximum, and standard deviation
@@ -26,6 +28,7 @@ Generates a comprehensive statistical summary using df.describe().
 Key Finding: The median order value (624)is substantially lower than the mean( 1,178), indicating a right-skewed distribution.
 
 3. Categorical Variable Analysis
+   
 Analyzes the following categorical dimensions:
 
 Product Distribution: Identifies top 5 products by order count (Printer, Tablet, Chair, Laptop, Desk)
@@ -41,6 +44,7 @@ Coupon Usage: Quantifies percentage of orders utilizing promotional codes (74.2%
 Key Finding: Approximately 41.4% of orders are either cancelled or returned, suggesting potential quality or delivery issues requiring investigation.
 
 4. Trend and Pattern Analysis
+   
 Performs temporal and product-based trend analysis:
 
 Temporal Trends:
